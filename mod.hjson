@@ -1,0 +1,11 @@
+name: "es"
+
+displayName: "ExtraStuff"
+
+description: "Adds a lot of stuff to play with."
+
+author: "CEO Of Beijing Corn"
+
+minGameVersion: "135"
+
+version: "0.0.0"
