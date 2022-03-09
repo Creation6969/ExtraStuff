@@ -1,0 +1,7 @@
+temperature: 0
+heatCapacity: 3.5
+color: 858585
+name: Liquid Nitrogen
+description: "Colder than cryofluid, extremely cold."
+effect: extremelycold
+research: water
