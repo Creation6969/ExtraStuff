@@ -1,0 +1,15 @@
+type: Door
+name: Plastanium Door
+health: 600
+description: "An better door."
+size: 1
+
+absorbLasers: true
+
+requirements: [
+   silicon/4
+   titanium/3
+   plastanium/6
+]
+category: defense
+research: door

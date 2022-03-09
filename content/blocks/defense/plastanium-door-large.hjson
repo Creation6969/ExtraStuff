@@ -1,0 +1,15 @@
+type: Door
+name: Large Plastanium Door
+health: 1800
+description: "An larger and better door."
+size: 2
+
+absorbLasers: true
+
+requirements: [
+   silicon/16
+   titanium/20
+   plastanium/24
+]
+category: defense
+research: plastanium-door
