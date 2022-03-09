@@ -1,0 +1,82 @@
+type: ItemTurret
+category: turret
+name: Fiery Sniper
+size: 1
+reloadTime: 50
+health: 100
+range: 1000
+description: "Shoots a bullet over a ultimate long distance."
+requirements: [
+   copper/50
+   graphite/30
+   lead/30
+]
+ammoTypes: {
+  coal: {
+   type: BasicBulletType
+   width: 4
+   height: 8
+   speed: 6
+   damage: 30
+   lifetime: 220
+   makeFire: true
+   status: burning
+   statusDuration: 120
+   hitEffect: {
+      type: ParticleEffect
+      particles: 50
+      length: 50
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 50
+      length: 50
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+   }
+   pyratite: {
+   type: BasicBulletType
+   width: 4
+   height: 8
+   speed: 6
+   damage: 50
+   lifetime: 220
+   makeFire: true
+   status: burning
+   statusDuration: 120
+   hitEffect: {
+      type: ParticleEffect
+      particles: 60
+      length: 60
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 60
+      length: 60
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+ }
+}
+research: mbg

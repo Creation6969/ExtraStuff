@@ -1,0 +1,80 @@
+type: ItemTurret
+category: turret
+name: Molotov Bullet Shooter
+size: 1
+reloadTime: 30
+health: 70
+range: 80
+description: "Shoots bullets that explode fire when it hits the target, giving burn status effect to the unit."
+requirements: [
+   copper/40
+   graphite/20
+   lead/15
+]
+ammoTypes: {
+  copper: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   speed: 3.4
+   damage: 10
+   makeFire: true
+   status: burning
+   statusDuration: 120
+   hitEffect: {
+      type: ParticleEffect
+      particles: 50
+      length: 50
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 50
+      length: 50
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+   }
+   pyratite: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   speed: 3.75
+   damage: 26
+   makeFire: true
+   status: burning
+   statusDuration: 120
+   hitEffect: {
+      type: ParticleEffect
+      particles: 60
+      length: 60
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 60
+      length: 60
+      lifetime: 80
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff0000
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+ }
+}
+research: duo
