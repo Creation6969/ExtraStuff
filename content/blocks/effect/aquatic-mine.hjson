@@ -1,0 +1,51 @@
+type: ShockMine
+name: Aquatic Mine
+hasShadow: false
+placeableLiquid: true
+requiresWater: true
+description: "An bomb designed to attack boats."
+details: "the cold war remade in mindustry LOL"
+size: 1
+cooldown: 60
+shots: 5
+health: 100
+tileDamage: 100
+damage: 5
+length: 15
+lightningColor: FFFF00
+bullet: {
+type: BombBulletType
+speed: 1
+lifetime: 10
+hittable: false
+instantDisappear: true
+splashDamage: 25
+splashDamageRadius: 30
+damage: 3
+status: blasted
+statusDuration: 300
+hitEffect: {
+type: ExplosionEffect
+sparks: 3
+smokes: 2
+waveRad: 45
+waveLife: 15
+waveStroke: 4
+sparkStroke: 4
+sparkRad: 50
+sparkLen: 30
+smokeSize: 5
+smokeRad: 45
+waveColor: FFFFFF
+smokeColor: 323232
+}
+despawnHit: true
+}
+category: effect
+research: viro-mine
+requirements: [
+silicon/30
+copper/25
+lead/30
+metaglass/10
+]

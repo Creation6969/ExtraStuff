@@ -1,0 +1,47 @@
+type: ShockMine
+name: Viro Mine
+hasShadow: false
+description: "Makes the victim unit unable to move and reload."
+size: 1
+cooldown: 60
+shots: 3
+health: 80
+tileDamage: 80
+damage: 4
+length: 15
+lightningColor: FF0000
+bullet: {
+type: BombBulletType
+speed: 1
+lifetime: 10
+hittable: false
+instantDisappear: true
+splashDamage: 20
+splashDamageRadius: 25
+damage: 2
+status: cpumalfunction
+statusDuration: 500
+hitEffect: {
+type: ExplosionEffect
+sparks: 5
+smokes: 2
+waveRad: 45
+waveLife: 15
+waveStroke: 4
+sparkStroke: 4
+sparkRad: 50
+sparkLen: 30
+smokeSize: 5
+smokeRad: 45
+waveColor: 000000
+smokeColor: 323232
+}
+despawnHit: true
+}
+category: effect
+research: shock-mine
+requirements: [
+silicon/25
+copper/25
+lead/30
+]
