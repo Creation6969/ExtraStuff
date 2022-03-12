@@ -1,2 +1,2 @@
 # ExtraStuff
-An mod that adds some stuff to play with.
+An mod that adds a ton of stuff to play with.
