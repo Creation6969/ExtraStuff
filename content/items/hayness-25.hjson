@@ -1,0 +1,16 @@
+color: d1d4e0
+name: Hayness-25
+description: "Cobalt based super alloy."
+
+research: {
+  parent: cobaltOre
+  requirements: [
+    lead/2000
+    titanium/2000
+    cobaltOre/600
+  ]
+}
+hardness: 2
+radioactivity: 0.2
+flammability: 1
+explosiveness: 0.45

@@ -1,0 +1,8 @@
+color: 0000FF
+name: Refined Cobalt
+description: "Used for batteries, super alloys and more."
+
+research: {
+  parent: cobaltOre
+}
+radioactivity: 0.18

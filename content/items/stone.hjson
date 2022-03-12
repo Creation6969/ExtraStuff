@@ -1,0 +1,8 @@
+color: 808080
+name: Stone
+description: "An great companion, pet rock."
+
+research: {
+  parent: sand
+}
+hardness: 1

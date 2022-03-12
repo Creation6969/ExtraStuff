@@ -1,0 +1,13 @@
+color: 0000FF
+name: Cobalt
+description: "An unrefined ore obviously, needs to be refined for more uses, the only use of this unrefined ore is flexing the amount of cobalt your core has."
+
+research: {
+  parent: titanium
+  requirements: [
+    lead/800
+    titanium/800
+  ]
+}
+hardness: 3
+radioactivity: 0.15
