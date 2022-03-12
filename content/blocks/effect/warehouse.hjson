@@ -1,0 +1,16 @@
+type: StorageBlock
+name: Warehouse
+description: "Stores 4k in items."
+size: 4
+health: 820
+hasItems: true
+itemCapacity: 4000
+
+requirements: [
+   titanium/300
+   thorium/200
+   lead/500
+   graphite/100
+]
+research: vault
+category: effect
