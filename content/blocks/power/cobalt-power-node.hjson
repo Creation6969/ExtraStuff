@@ -1,0 +1,18 @@
+type: PowerNode
+health: 45
+name: Cobalt Power Node
+size: 1
+description: "An more useful power node, has more connections. and also range."
+outputsPower: false
+consumesPower: false
+
+laserRange: 12
+maxNodes: 20
+
+
+requirements: [
+   lead/3
+   refined-cobalt/1
+]
+category: power
+research: core-shard

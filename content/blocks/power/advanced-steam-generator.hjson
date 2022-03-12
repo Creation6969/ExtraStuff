@@ -1,0 +1,26 @@
+type: BurnerGenerator
+name: Advanced Steam Generator
+health: 240
+size: 2
+description: "Stronger version of the steam generator, can resist explosive materials."
+
+hasItems: true
+hasLiquids: true
+
+consumes: {
+  liquid: {
+   liquid: water
+   amount: 0.1
+}}
+itemDuration: 120
+randomlyExplode: false
+powerProduction: 15
+requirements: [
+    copper/35
+    lead/40
+    graphite/25
+    silicon/30
+    hayness-25/40
+]
+category: power
+research: steam-generator

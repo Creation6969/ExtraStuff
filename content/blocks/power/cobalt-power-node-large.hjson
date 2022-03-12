@@ -1,0 +1,19 @@
+type: PowerNode
+health: 180
+name: Large Cobalt Power Node
+size: 2
+description: "An more useful and larger power node, has more connections than the regular one. and also range."
+outputsPower: false
+consumesPower: false
+
+laserRange: 24
+maxNodes: 30
+
+
+requirements: [
+   lead/10
+   titanium/5
+   refined-cobalt/5
+]
+category: power
+research: cobalt-power-node

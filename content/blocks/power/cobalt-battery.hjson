@@ -1,0 +1,18 @@
+type: Battery
+name: Cobalt Battery
+health: 45
+size: 1
+emptyLightColor: FFFFFF
+fullLightColor: 0000FF
+consumes: {
+  powerBuffered: 10000
+}
+category: power
+research: battery
+requirements: [
+  lead/20
+  refined-cobalt/5
+]
+
+
+

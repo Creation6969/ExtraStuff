@@ -1,0 +1,21 @@
+type: Battery
+name: Large Cobalt Battery
+health: 380
+size: 3
+emptyLightColor: FFFFFF
+fullLightColor: 0000FF
+consumes: {
+  powerBuffered: 100000
+}
+category: power
+research: cobalt-battery
+requirements: [
+  lead/40
+  refined-cobalt/20
+  titanium/20
+  silicon/20
+]
+
+
+
+
