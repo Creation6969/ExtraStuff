@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Hayness-25 Smelter
+description: "Smelts hayness-25."
+outputItem: hayness-25/1
+size: 3
+craftTime: 140
+craftEffect: formsmoke
+itemCapacity: 20
+drawer: DrawGlow
+consumes: {
+power: 4.2
+ items: {
+  items: [
+   titanium/1
+   refined-cobalt/1
+  ]
+ }
+}
+requirements: [
+ titanium/200
+ lead/100
+ graphite/100
+ silicon/60
+ copper/20
+]
+category: crafting
+research: air-compressor

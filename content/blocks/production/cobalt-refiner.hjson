@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Cobalt Refiner
+description: "Refines raw cobalt to a more usable cobalt version. Also cleans it with water."
+outputItem: refined-cobalt/1
+size: 2
+health: 300
+craftTime: 200
+craftEffect: formsmoke
+itemCapacity: 10
+consumes: {
+  power: 2
+  items: {
+    items: [
+      cobaltOre/5
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.1
+  }
+}
+requirements: [
+ lead/80
+ copper/50
+ titanium/40
+ graphite/40
+]
+category: crafting
+research: air-compressor
