@@ -1,0 +1,26 @@
+type: Drill
+health: 1400
+name: Surge Drill
+description: "An powerless and powerful drill made out of surge alloy."
+size: 3
+requirements: [
+titanium/50
+thorium/30
+silicon/75
+copper/50
+surge-alloy/120
+] 
+tier: 6
+drillTime: 60
+liquidBoostIntensity: 1.5
+rotateSpeed: 10
+drawRim: true
+consumes: {
+liquid: {
+liquid: water
+amount: 0.1
+optional: true
+booster: true
+}} 
+category: production
+research: blast-drill

@@ -1,0 +1,17 @@
+type: GenericCrafter
+health: 260
+name: Cobalt Drill
+description: "Mines cobalt deep into the ground."
+size: 3
+requirements: [
+  copper/100
+  lead/100
+  graphite/75
+] 
+outputItem: cobaltOre/1
+craftTime: 200
+consumes: {
+power: 0.8
+}
+category: production
+research: core-shard
