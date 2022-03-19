@@ -1,0 +1,13 @@
+type: Conveyor
+health: 60
+name: "Cobalt Conveyor"
+description: "Cobalt conveyor, fast, good for transportating silicon to the core to prevent siligone."
+requirements: [
+	titanium/1
+	lead/1
+ copper/1
+	refined-cobalt/1
+]
+category: distribution
+speed: 0.18
+research: titanium-conveyor
