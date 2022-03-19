@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Sulphuric Acid Factory
+description: "Makes water and sulphur trioxide react with eachother to create sulphuric acid"
+hasLiquid: true
+update: true
+drawLiquidLight: true
+outputLiquid: sulphuric-acid/4
+size: 2
+craftTime: 60
+craftEffect: {
+    type: ParticleEffect
+      particles: 10
+      length: 12
+      lifetime: 40
+      lightOpacity: 0
+      colorFrom: 808080
+      colorTo: FFFFFF
+      sizeFrom: 2
+      sizeTo: 0  
+}
+itemCapacity: 10
+liquidCapacity: 50
+consumes: {
+power: 0.45
+ items:{
+   items:[
+    sulphur-trioxide/1
+   ]
+ }
+ liquid:{
+ liquid: water
+ amount: 0.2
+ }
+}
+requirements: [
+ graphite/50
+ titanium/60
+ thorium/30
+ silicon/30
+ metaglass/20
+]
+category: crafting
+research: burner

@@ -1,0 +1,16 @@
+localizedName: Burner
+description: "Burns anything with sulphur for sulphur dioxide."
+health: 230
+size: 2
+requirements:
+[
+    graphite/50
+    silicon/70
+    titanium/50
+]
+category: crafting
+research: ore-melter
+liquidCapacity: 20
+itemCapacity: 10
+updateEffect: mineBig
+updateEffectChance: 0.07

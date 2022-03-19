@@ -1,0 +1,19 @@
+localizedName: Ore Melter
+description: "Melts multiple ores."
+health: 600
+size: 3
+requirements:
+[
+    lead/60
+    metaglass/50
+    graphite/40
+    silicon/30
+    titanium/40
+    hayness-25/25
+]
+category: crafting
+research: air-compressor
+liquidCapacity: 80
+itemCapacity: 20
+updateEffect: mineBig
+updateEffectChance: 0.07

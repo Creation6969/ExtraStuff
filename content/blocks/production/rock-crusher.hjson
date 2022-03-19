@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Rock Crusher
+description: "Crushes stone and outputs sand."
+outputItem: sand/1
+size: 1
+health: 50
+craftTime: 150
+craftEffect: {
+      type: ParticleEffect
+      particles: 8
+      length: 6
+      lifetime: 40
+      lightOpacity: 0
+      colorFrom: 808080
+      colorTo: 606060
+      sizeFrom: 2
+      sizeTo: 0  
+}
+itemCapacity: 5
+consumes: {
+  items: {
+    items: [
+      stone/1
+    ]
+  }
+}
+requirements: [
+ lead/20
+ copper/20
+ graphite/30
+]
+category: crafting
+research: graphite-press

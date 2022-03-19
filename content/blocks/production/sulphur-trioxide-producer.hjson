@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Sulphur Trioxide Producer
+description: "Makes water and sulphur diooxide react with eachother to create sulphur trioxide"
+details: "added this bc file size was satans number so i wrote this."
+outputItem: sulphur-trioxide/2
+size: 2
+craftTime: 60
+craftEffect: {
+    type: ParticleEffect
+      particles: 7
+      length: 6
+      lifetime: 40
+      lightOpacity: 0
+      colorFrom: FFFF00
+      colorTo: FFFF50
+      sizeFrom: 2
+      sizeTo: 0  
+}
+itemCapacity: 10
+liquidCapacity: 20
+consumes: {
+power: 0.45
+ items:{
+   items:[
+    sulphur-dioxide/1
+   ]
+ }
+ liquid:{
+ liquid: water
+ amount: 0.1
+ }
+}
+requirements: [
+ graphite/50
+ titanium/50
+ silicon/30
+ refined-cobalt/15
+]
+category: crafting
+research: burner
