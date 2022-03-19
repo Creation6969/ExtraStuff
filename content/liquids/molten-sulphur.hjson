@@ -1,0 +1,7 @@
+temperature: 1
+heatCapacity: 0
+color: FFFF00
+name: Molten Sulphur
+description: "smelly just like you, like fr take a shower"
+effect: melting
+research: water

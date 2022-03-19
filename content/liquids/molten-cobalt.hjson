@@ -1,0 +1,7 @@
+temperature: 1
+heatCapacity: 0
+color: 0000FF
+name: Molten Cobalt
+description: "why"
+effect: melting
+research: water

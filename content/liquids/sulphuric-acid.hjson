@@ -1,0 +1,8 @@
+temperature: 0.5
+viscosity: 0.6
+heatCapacity: -1
+color: 909090
+name: Sulphuric Acid
+description: "ask nilered, dont ask him math questions though. [red]he will end your life if you do so.[]"
+effect: corroding
+research: water
