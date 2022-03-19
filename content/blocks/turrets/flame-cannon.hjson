@@ -1,0 +1,123 @@
+type: ItemTurret
+category: turret
+name: Flame Cannon
+size: 2
+reloadTime: 50
+health: 300
+range: 130
+description: "Shoots bullets that keep burning the victim unit for an extremely long time, varies in different ammos."
+requirements: [
+   copper/80
+   graphite/40
+   lead/30
+   sulphur/10
+   titanium/40
+]
+ammoTypes: {
+  coal: {
+   type: BasicBulletType
+   width: 12
+   height: 12
+   speed: 3
+   damage: 40
+   makeFire: true
+   status: burning
+   statusDuration: 600
+   hitEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 50
+      lifetime: 85
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: 000000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 50
+      lifetime: 85
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: 000000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+   trailColor: 000000
+   trailLength: 8
+   trailWidth: 3
+   }
+   pyratite: {
+   type: BasicBulletType
+   width: 12
+   height: 12
+   speed: 3
+   damage: 65
+   makeFire: true
+   status: burning
+   statusDuration: 1000
+   hitEffect: {
+      type: ParticleEffect
+      particles: 30
+      length: 50
+      lifetime: 75
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff4000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 30
+      length: 50
+      lifetime: 75
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ff4000
+      sizeFrom: 3
+      sizeTo: 0   
+   }
+    trailColor: ff4000
+    trailLength: 8
+    trailWidth: 3
+ }
+   sulphur: {
+   type: BasicBulletType
+   width: 12
+   height: 12
+   speed: 3
+   damage: 100
+   makeFire: true
+   status: burning
+   statusDuration: 2000
+   hitEffect: {
+      type: ParticleEffect
+      particles: 35
+      length: 50
+      lifetime: 100
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ffff00
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+      despawnEffect: {
+      type: ParticleEffect
+      particles: 35
+      length: 50
+      lifetime: 100
+      lightOpacity: 0
+      colorFrom: ffa400
+      colorTo: ffff00
+      sizeFrom: 4
+      sizeTo: 0   
+   }
+   trailColor: ffff00
+   trailLength: 8
+   trailWidth: 3
+ }
+}
+research: mbs

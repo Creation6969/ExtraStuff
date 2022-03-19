@@ -1,0 +1,32 @@
+type: LiquidTurret
+category: turret
+name: Acid Gun
+size: 2
+reloadTime: 6
+health: 250
+range: 140
+description: "Shoots sulphuric acid at enemies"
+requirements: [
+   hayness-25/50
+   thorium/50
+   titanium/30
+   metaglass/20
+]
+inaccuracy: 15
+liquidCapacity: 30
+ammoTypes: {
+  es-sulphuric-acid: {
+   type: LiquidBulletType
+   width: 4
+   height: 8
+   speed: 3
+   damage: 26
+   lifetime: 50
+   status: corroding
+   statusDuration: 120
+   liquid: sulphuric-acid
+   orbSize: 3
+   puddleSize: 6
+   }
+}
+research: duo

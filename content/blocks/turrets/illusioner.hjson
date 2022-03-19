@@ -1,0 +1,50 @@
+type: PowerTurret
+category: turret
+name: Illusioner
+size: 2
+reloadTime: 60
+powerUse: 8
+shots: 4
+health: 300
+range: 280
+description: "Shoots bullets that give the illusion effect."
+requirements: [
+   copper/50
+   graphite/60
+   silicon/50
+   hayness-25/30
+]
+shootType: {
+type: BasicBulletType
+sprite: es-card
+height: 8
+width: 8
+damage: 24
+lifetime: 80
+speed: 3
+shootEffect: none
+fragBullets: 7
+hitSound: spark
+fragCone: 360
+status: illusion
+statusDuration: 200
+  trailColor: b30000
+   trailLength: 12
+   trailWidth: 2
+fragBullet: {
+type: ArtilleryBulletType
+height: 4
+width: 4
+status: illusion
+statusDuration: 100
+damage: 7
+lifetime: 60
+frontColor: FF0000
+backColor: FF0000
+  trailEffect: none
+  trailColor: FF0000
+   trailLength: 20
+   trailWidth: 1
+}
+}
+research: duo

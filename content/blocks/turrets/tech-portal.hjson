@@ -1,0 +1,50 @@
+type: PowerTurret
+category: turret
+name: Tech Portal
+size: 2
+reloadTime: 120
+powerUse: 20
+shots: 1
+health: 300
+range: 280
+description: "Shoots a bullet that explodes in fragments dealing high damage."
+requirements: [
+   copper/100
+   graphite/80
+   silicon/80
+   hayness-25/50
+   surge-alloy/50
+]
+shootType: {
+type: ArtilleryBulletType
+trailEffect: none
+sprite: es-tech-cube
+frontColor: 00FF00
+backColor: 000000
+height: 16
+width: 16
+damage: 120
+lifetime: 80
+speed: 3
+shootEffect: none
+fragBullets: 15
+hitSound: spark
+fragCone: 360
+  trailColor: 00FF00
+   trailLength: 12
+   trailWidth: 2
+fragBullet: {
+type: BasicBulletType
+height: 4
+width: 4
+damage: 30
+lifetime: 30
+speed: 3
+frontColor: 00FF00
+backColor: 00FF00
+  trailColor: 00FF00
+   trailLength: 20
+   trailWidth: 1
+}
+}
+research: duo
