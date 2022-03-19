@@ -1,0 +1,5 @@
+type: OreBlock
+itemDrop: sulphur
+oreDefault: true
+oreThreshold: 13.234
+oreScale: 7.843
