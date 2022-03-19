@@ -1,0 +1,14 @@
+color: FFFF00
+name: Sulphur Dioxide
+description: "ask niler-"
+
+research: {
+  parent: sulphur
+  requirements: [
+    sulphur/1000
+  ]
+}
+hardness: 3
+radioactivity: 0.2
+flammability: 1.25
+explosiveness: 0.5

@@ -1,0 +1,15 @@
+color: FFFF00
+name: Sulphur Trioxide
+description: "ask [yellow]god[]"
+
+research: {
+  parent: sulphur-dioxide
+  requirements: [
+    sulphur/500
+    sulphur-dioxide/500
+  ]
+}
+hardness: 3
+radioactivity: 0.2
+flammability: 1.25
+explosiveness: 0.5
