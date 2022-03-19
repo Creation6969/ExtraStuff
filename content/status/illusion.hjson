@@ -1,0 +1,15 @@
+name: Illusion
+description: "Breaks the AI, making the uncontrolled unit walk backwards otherwise, when controlled shooting direction will be reversed."
+speedMultiplier: -1
+effect: {
+  type: ParticleEffect
+  particles: 20
+  length: 0
+  lifetime: 45
+  lightOpacity: 0
+  colorFrom: b30000
+  colorTo: FFFFFF
+  sizeFrom: 2
+  sizeTo: 0   
+}
+opposites: [overclock, overdrive]
